@@ -1,0 +1,24 @@
+{
+  "name": "banana",
+  "version": "1.0.0",
+  "description": "Extensions For Yarn Berry",
+  "main": "index.js",
+  "repository": "https://github.com/d3dc/banana",
+  "author": "Sam Richard <banana@d3dc.io>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/*/tests/__fixture__/*"
+  ],
+  "dependencies": {
+    "eslint": "latest",
+    "prettier": "latest",
+    "supports-color": "^9.2.1",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@yarnpkg/pnpify": "latest"
+  },
+  "packageManager": "yarn@3.2.0"
+}

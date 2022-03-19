@@ -1,0 +1,9 @@
+{
+  "name": "baz",
+  "packageManager": "yarn@3.2.0",
+  "private": true,
+  "dependencies": {
+    "foo": "workspace:*",
+    "bar": "workspace:*",
+  }
+}

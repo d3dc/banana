@@ -1,0 +1,6 @@
+{
+  "name": "fixture-c",
+  "packageManager": "yarn@3.2.0",
+  "private": true,
+  "workspace": "packages/*"
+}

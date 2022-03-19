@@ -1,0 +1,5 @@
+bunches:
+  - path: .bunches/fixture-a
+    spec: ../fixture-a
+  - path: .bunches/fixture-b
+    spec: ../fixture-b
