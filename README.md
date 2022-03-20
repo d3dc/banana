@@ -13,12 +13,12 @@ yarn plugins import [release url]
 
 ## Commands
 ```
-━━━ Workspace-related commands ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━ Workspace-related commands ━━━━━━━━━━━━━━━━━
 
   yarn locate <Workspace Name>
     shows workspace path
     
-━━━ Bunch-related commands ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━ Bunch-related commands ━━━━━━━━━━━━━━━━━━━━━
 
   yarn bunch add <name>
     Depend on a bunch
