@@ -39,9 +39,9 @@ yarn plugins import [release url]
     sync the active bunches
 ```
 
-## Bucket Spec
+## Bunch Spec
 
-A bucket can be a `github repo`, a `git url`, or a `local path` followed by `#commit-or-branch`
+A bunch name can be a `github repo`, a `git url`, or a `local path` followed by `#commit-or-branch`
 
 ## Configuration
 
