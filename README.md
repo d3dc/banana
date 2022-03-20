@@ -1,5 +1,9 @@
 # Yarn Bunches
 
+Use git to combine multiple repos into a single monorepo.
+
+## Motivation
+
 Organizations have a lot of repos and teams. Sometimes one monorepo isn't enough. Sometimes you need bunches.
 
 Yarn Bunches are a solution for teams looking to stay in sync with "release channels" but also work within a singular monorepo setup.
