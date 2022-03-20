@@ -49,13 +49,13 @@ A bunch name can be a `github repo`, a `git url`, or a `local path` followed by 
 
 ### Workspace
 
-- add a new entry to your workspace array: `".bunches/*/packages/*"`
+1. add a new entry to your workspace array: `".bunches/*/packages/*"`
 
 ### Assets, Other languages, Dockerfiles
 
-- create a package.json that is within your workspaces config
-- run yarn install
-- use the .bunches symlink in the package.json directory
+1. create a package.json that is within your workspaces config
+1. run yarn install
+1. use the .bunches symlink in the package.json directory
 
 ## "Release Channels"
 
@@ -63,6 +63,6 @@ It doesn't really seem feasible to maintain individually versioned packages with
 
 The simplest use cases would be to target one of:
 
-1. branches that contain packages that all keep their version number in sync
-2. branches that contain packages that are PR'd in periodically
-3. branches that contain unique git "cherrypicks"
+- branches that contain packages that all keep their version number in sync
+- branches that contain packages that are PR'd in periodically
+- branches that contain unique git "cherrypicks"
